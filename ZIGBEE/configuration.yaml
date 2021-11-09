@@ -1,0 +1,10 @@
+homeassistant: false
+permit_join: true
+mqtt:
+  base_topic: zigbee2mqtt
+  server: 'mqtt://mosquitto:8883'
+serial:
+  port: /dev/ttyACM0
+frontend:
+  port: 5000
+devices: devices.yaml
