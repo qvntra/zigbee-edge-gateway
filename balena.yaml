@@ -1,0 +1,29 @@
+name: "Zigbee-Edge-Gateway"
+type: "sw.application"
+description: "Full-stack Zigbee Edge Gateway with MQTT bridged to AWS IoT Core"
+joinable: false
+post-provisioning: >-
+  ## Requirements
+  Zigbee2MQTT requires a Zigbee Adapter to function -- https://www.zigbee2mqtt.io/guide/adapters/
+  MosquittoMQTT requires "AWS IoT Core - End Point" + "AWS IoT Core - Certificates" to bridge payloads to AWS environment -- see "/config/mosquitto.conf"
+  
+  ## Usage
+  Manage your Zigbee devices via Zigbee2MQTT = https://$YOURDEVICEPUBLICURL.balena-devices.com/z2m
+  Write your Node-Red flows = https://$YOURDEVICEPUBLICURL.balena-devices.com/
+  
+assets:
+  repository:
+    type: "blob.asset"
+    data:
+      url: "https://github.com/qvntra/zigbee-edge-gateway"
+  logo:
+    type: "blob.asset"
+    data:
+      url: "https://raw.githubusercontent.com/Koenkk/zigbee2mqtt/b3e9afaf3ee55e2d62f6775dc0c62e8550b8fef1/images/logo.png"
+data:
+  defaultDeviceType: "raspberrypi4-64"
+  supportedDeviceTypes:    
+    - "raspberrypi3"
+    - "raspberrypi3-64"
+    - "raspberrypi4-64"
+    - "fincm3"
