@@ -21,6 +21,7 @@ services:
         - "8008:8008"
       devices:
         - "/dev/ttyUSB0:/dev/ttyUSB0"
+        - "/dev/ttyACM0:/dev/ttyACM0"
       cap_add:
         - SYS_RAWIO
       privileged: true
