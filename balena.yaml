@@ -11,6 +11,8 @@ post-provisioning: >-
   Manage your Zigbee devices via Zigbee2MQTT = https://$YOURDEVICEPUBLICURL.balena-devices.com/z2m
   Write your Node-Red flows = https://$YOURDEVICEPUBLICURL.balena-devices.com/
   
+  ### user:password
+  admin:admin
 assets:
   repository:
     type: "blob.asset"
