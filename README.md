@@ -7,12 +7,12 @@ We've built a B2B Enterprise IoT Product with this stack of technologies + balen
 ![Architecture](images/architecture.svg)
 
 ## Requirements
-Zigbee2MQTT requires a Zigbee Adapter to function -- https://www.zigbee2mqtt.io/guide/adapters/
-MosquittoMQTT requires "AWS IoT Core - End Point" + "AWS IoT Core - Certificates" to bridge payloads to AWS environment -- see "/config/mosquitto.conf"
+* Zigbee2MQTT requires a Zigbee Adapter to function -- https://www.zigbee2mqtt.io/guide/adapters/
+* MosquittoMQTT requires "AWS IoT Core - End Point" + "AWS IoT Core - Certificates" to bridge payloads to AWS environment -- see "/config/mosquitto.conf"
 
 ## Usage
-Manage your Zigbee devices via Zigbee2MQTT = https://$YOURDEVICEPUBLICURL.balena-devices.com/z2m
-Write your Node-Red flows = https://$YOURDEVICEPUBLICURL.balena-devices.com/
+* Manage your Zigbee devices via Zigbee2MQTT = https://$YOURDEVICEPUBLICURL.balena-devices.com/z2m
+* Write your Node-Red flows = https://$YOURDEVICEPUBLICURL.balena-devices.com/
 
 ## Technologies in stack
 * https://github.com/Koenkk/zigbee2mqtt
