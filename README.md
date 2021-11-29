@@ -5,3 +5,5 @@
 * https://github.com/eclipse/mosquitto
 ### Password
 * admin:admin
+
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/qvntra/zigbee-edge-gateway)
