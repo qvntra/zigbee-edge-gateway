@@ -20,6 +20,6 @@ We've built a B2B Enterprise IoT Product with this stack of technologies + balen
 * https://github.com/nginx/nginx
 * https://github.com/eclipse/mosquitto
 ### Password
-* admin:admin
+* admin:881000xXx
 
 [![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/qvntra/zigbee-edge-gateway)
